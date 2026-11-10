@@ -8,6 +8,8 @@ lib/
 pnpm-debug.log
 .pnpm-store/
 .cache/
+/.codegraph/
+/.codegraph-wsl/
 examples/*/*.jsonl
 .storages/
 .sessions/
@@ -34,6 +36,7 @@ python/**/__pycache__/
 python/**/.pytest_cache/
 apps/web/dist/
 apps/desktop/runtime-host/
+apps/desktop/Python/
 apps/desktop/dist/
 .artifacts/
 .dsh-build/
